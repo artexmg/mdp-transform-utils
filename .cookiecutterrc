@@ -1,0 +1,70 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary mdp-transform-utils
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=mdp-transform-utils/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    _extensions:               ['jinja2_time.TimeExtension']
+    _template:                 'cookiecutter-pylibrary'
+    allow_tests_inside_package: 'yes'
+    appveyor:                  'no'
+    c_extension_function:      'longest'
+    c_extension_module:        '_transform_utils'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    c_extension_test_pypi:     'no'
+    c_extension_test_pypi_username: 'marathonoil'
+    codacy:                    'no'
+    codacy_projectid:          '[Get ID from https://app.codacy.com/app/marathonoil/mdp-transform-utils/settings]'
+    codeclimate:               'yes'
+    codecov:                   'no'
+    command_line_interface:    'argparse'
+    command_line_interface_bin_name: 'transform-utils'
+    coveralls:                 'no'
+    coveralls_token:           '[Required for Appveyor, take it from https://coveralls.io/github/marathonoil/mdp-transform-utils]'
+    distribution_name:         'transform-utils'
+    email:                     'art@enrouteSystems.com'
+    full_name:                 'Artemio Mendoza'
+    legacy_python:             'yes'
+    license:                   'no'
+    linter:                    'flake8'
+    package_name:              'transform_utils'
+    pre_commit:                'yes'
+    project_name:              'transform_utils'
+    project_short_description: 'Transformation Utils for Upstram FSM2'
+    pypi_badge:                'no'
+    pypi_disable_upload:       'yes'
+    release_date:              'today'
+    repo_hosting:              'github.com'
+    repo_hosting_domain:       'github.com'
+    repo_name:                 'mdp-transform-utils'
+    repo_username:             'marathonoil'
+    requiresio:                'no'
+    scrutinizer:               'no'
+    setup_py_uses_setuptools_scm: 'yes'
+    setup_py_uses_test_runner: 'no'
+    sphinx_docs:               'yes'
+    sphinx_docs_hosting:       'https://mdp-transform-utils.readthedocs.io/'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'yes'
+    test_matrix_separate_coverage: 'no'
+    test_runner:               'pytest'
+    travis:                    'no'
+    travis_osx:                'no'
+    version:                   '0.0.0'
+    website:                   'http://marathonoil.com'
+    year_from:                 '2021'
+    year_to:                   '2021'
