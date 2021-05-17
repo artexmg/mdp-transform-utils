@@ -73,6 +73,9 @@ setup(
     python_requires='>=3.7',
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
+        pyspark,
+        boto3
+    
     ],
     extras_require={
         # eg:
