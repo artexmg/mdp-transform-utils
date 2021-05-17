@@ -141,6 +141,6 @@ def get_backfill_dates(start_date, end_date):
         dates.append(day)
     return dates
 
-def amgf1(start, end):
+def amg(start, end):
     f = lambda x : datetime.strptime(x,"%Y-%m-%d").date() 
     return [ (f(start)+timedelta(d)).strftime("%Y-%m-%d") for d in range((f(end)-f(start)).days+1)]
